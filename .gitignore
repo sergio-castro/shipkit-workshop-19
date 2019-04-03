@@ -1,9 +1,30 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+.gradletasknamecache
+
+# Ignore Gradle build output directory
+build/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.metadata
+bin/
+tmp/
+.tmpBin/
+
+### IntelliJ IDEA ###
+out/
 .idea
 *.iws
 *.iml
 *.ipr
-.gradle
-*/build/
-*/out
-!gradle/wrapper/gradle-wrapper.jar
-.gradletasknamecache
+.idea_modules
+
+### OSX ###
+.DS_Store
