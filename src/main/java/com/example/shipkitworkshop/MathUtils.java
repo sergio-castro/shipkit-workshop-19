@@ -1,5 +1,8 @@
 package com.example.shipkitworkshop;
 
+/**
+ * My javadoc
+ */
 public class MathUtils {
 
     public static boolean isTriangle(int a, int b, int c) {
